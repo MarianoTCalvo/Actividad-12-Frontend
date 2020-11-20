@@ -23,13 +23,12 @@ ul {
     height: 24px;
 }
 
-header, .menu-superior {
+header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    padding-left: 10px;
     width: 100%;
     padding: 0;
-}
+    }
 
 .redondo {
     border-radius: 50%;
@@ -38,6 +37,27 @@ header, .menu-superior {
 .imagen-miniatura {
     width: 32px;
     height: 32px;
+}
+
+.menu-izquierdo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.menu-derecho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.margen {
+    margin-right: 25px;
+    margin-left: 0px;
 }
 
 /**
